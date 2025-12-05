@@ -144,9 +144,6 @@ visualforge_gpu/
 - [ ] Real-time webcam processing
 - [ ] Advanced masking tools
 
-## License
-
-MIT License - feel free to use for commercial projects
 
 ## Credits
 
