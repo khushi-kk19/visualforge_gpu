@@ -1,0 +1,77 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+venv\
+env\
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+*.egg-info/
+dist/
+build/
+
+# Large Model Files (DON'T PUSH)
+*.pt
+*.pth
+yolov8*.pt
+*.onnx
+*.pb
+*.weights
+
+# Generated/Temporary Files
+uploads/
+runs/
+output_*.png
+attention_map.png
+temp_*.jpg
+*.tmp
+
+# Flask/FastAPI
+instance/
+.webassets-cache
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Cache
+*.cache
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Testing
+.coverage
+htmlcov/
+
+# IDE
+*.sublime-project
+*.sublime-workspace

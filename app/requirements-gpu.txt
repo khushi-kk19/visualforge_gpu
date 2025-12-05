@@ -1,0 +1,30 @@
+# app/requirements-gpu.txt
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+
+# YOLOv8 (Ultralytics) for detection & training
+ultralytics==8.0.199
+
+# Diffusers & Stable Diffusion (GPU)
+diffusers[torch]==0.19.3
+transformers==4.34.0
+accelerate==0.20.3
+safetensors==0.3.1
+xformers==0.0.20  # optional but speeds up on many GPUs
+
+# Optional: CLIP for scoring
+ftfy==6.1.1
+regex==2023.10.3
+
+# Imaging
+pillow==10.2.0
+opencv-python==4.8.0.76
+numpy==1.26.3
+
+# Utilities
+python-multipart==0.0.6
+tqdm==4.66.1
+requests==2.31.0
+
+# For optional ML logging/tracking
+mlflow==2.5.0
